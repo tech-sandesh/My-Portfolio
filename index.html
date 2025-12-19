@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0af8de2806.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.jpg" class="logo border">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- <div class="header-text">
+                <p>Full-Stack Devloper</p>
+                <h1>Hi, I'm <span>Sandesh </span><br>Kamble From India</h1>
+            </div> -->
+            <div class="container-main">
+                <!-- Video Background -->
+                <video autoplay muted loop class="background-video">
+                    <source src="images/vid5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+                <!-- Text Over the Video -->
+                <div class="header-text">
+                    <p>Full-Stack Developer</p>
+                    <h1>Hi, I'm <span>Sandesh</span><br>Kamble From Pune</h1>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   <!--------------about-------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://i.ibb.co/Nn9gmjM/about.jpg" alt="about" border="0">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titles">About Me</h1>
+                        <p> <b>Hi! Im Sandesh Kamble </b>a Full-Stack Devloper from pune recently i complted my graduation in BCA from Savitribai Phule Pune University . <br>As a full-stack developer, I have Skilled in both front-end and back-end programming. <br>My skills include:
+
+                            <br>Front-end: Proficient in HTML, CSS, and JavaScript for creating engaging user interfaces.
+                            <br>Back-end: Proficient in Back-End programming languges such as C,C++,Python and Java.
+                            <br>Frameworks: I’ve worked with frameworks like Spring Boot, Bootstrap.<br>
+                            <br>Feel free to reach out if you have any questions or need further details! 😊
+                            <br>Fill the contact form below !</p>
+                            
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul><li><span style="color: red; font-size: 25px;">Full-Stack Devloper</span></li>
+                                <li><span>Front-End</span><br>HTML,CSS,JavaScript</li>
+                                <li><span>Back-End</span><br>C/C++,Java,Python</li>
+                                <li><span>DataBase</span><br>MySQL</li>
+                                <li><span>Framework</span><br>Spring Boot,Bootstrap</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Fresher</span><br>Recently Graduate</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2024</span><br>BCA From SPPU</li>
+                                <li><span>2021</span><br>HSC From pune Board</li>
+                                <li><span>2019</span><br>SSC From Pune Board</li>
+                            </ul>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------services------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full-Stack Devloper</h2>
+                    <p>The ability to design complete web applications and websites. Im work on the frontend, backend, and database of web applications or websites.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Front-End Devloper</h2>
+                    <p>The ability to creating and designing the user interface (UI) and user experience (UX) of websites and web applications. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://i.ibb.co/pdhS5Gz/crs.jpg" alt="crs" border="0">
+                    <div class="layer">
+                        <h3>Online Car Rental System</h3>
+                        <p>: Its Web Application Thats Allows User To Rent Car Online For Family Toors And Many More</p>
+                        <a href="#"><i class="fa-solid fa-car"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/store.png">
+                    <div class="layer">
+                        <h3>Online Best Store</h3>
+                        <p>: Its web Application For Shpping Mobiles And Hardware And Computers And Trending Devices Online At Best Offer</p>
+                        <a href="#"><i class="fa-solid fa-store"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/vcard.png">
+                    <div class="layer">
+                        <h3>Digital V-Card</h3>
+                        <p>: Its Digital V card a Static webpage that provides shorter information of me it is like a invitation V-Card</p>
+                        <a href="https://vcardsandesh.netlify.app/"><i class="fa-solid fa-store"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+
+    <!-------------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sandesh982254@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9890579567</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/sandesh_07_k?igsh=OWlhN2E1azlnYzhq"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sandesh-kamble-3b9a0a306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Sandesh kamble .pdf" download="Sandesh kamble resume.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sandesh. made by <i class="fa-solid fa-heart"></i>Sandesh Kamble</p>
+        </div>
+    </div>
+
+
+
+
+<!-------------Script--0-------------->
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right="0";
+
+    }
+    function closemenu() {
+        sidemenu.style.right="-200px";
+        
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwiEYTCIIw_INEPhdvJZ6zO0rQW5l1joLIKpfyoUNwVfd6P8GYzdKAscrImDclikwArRw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully !"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
