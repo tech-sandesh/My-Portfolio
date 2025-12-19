@@ -1,3 +1,2 @@
-Hey dev's this is my portfolio
-<br>
-make sure to explore
+## 🌐 Live Demo
+👉 [https://your-subdomain.yourdomain.com](https://techsandesh.netlify.app/)
