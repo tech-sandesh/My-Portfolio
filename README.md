@@ -1,4 +1,4 @@
-[![Live](https://img.shields.io/badge/Live-Portfolio-brightgreen)](https://techsandesh.netlify.app)
+[![Live](https://img.shields.io/badge/Live-Portfolio-brightgreen)](https://techsandesh.netlify.app/)
 # My Portfolio
 
 Personal portfolio website showcasing my skills, projects, and learning journey as a software developer.
