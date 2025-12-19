@@ -1,2 +1,1 @@
-## 🌐 Live Demo
-👉 [https://your-subdomain.yourdomain.com](https://techsandesh.netlify.app/)
+[![Live](https://img.shields.io/badge/Live-Portfolio-brightgreen)](https://techsandesh.netlify.app)
