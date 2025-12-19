@@ -6,6 +6,8 @@ Personal portfolio website showcasing my skills, projects, and learning journey 
 ## 🌐 Live Website
 🔗 https://techsandesh.netlify.app/
 
+<img width="1897" height="947" alt="image" src="https://github.com/user-attachments/assets/a14f3575-c685-4a2d-a35d-6eb888cab80f" />
+
 ## 👨‍💻 About Me
 Aspiring software developer passionate about coding, problem-solving, and building clean, user-friendly web applications.
 
